@@ -2,7 +2,7 @@
 Install Chrome Remote Desktop on Google Collab 
 This script was forked from alok676875 RDP repo (https://github.com/alok676875/RDP/) with more detail about user credentials.
 
-#How to use ?
+# How to use ?
 
 Paste this to new collab notes and execute:
 ```
