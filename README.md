@@ -2,7 +2,7 @@
 Install Chrome Remote Desktop on Google Collab 
 This script was forked from alok676875 RDP repo (https://github.com/alok676875/RDP/) with more detail about user credentials.
 
-##How to use ?
+#How to use ?
 
 Paste this to new collab notes and execute:
 ```
@@ -16,8 +16,10 @@ You can also change root user password using "sudo passwd" (without quotes)
 And you now have a free VPS (lol)
 You can keep your session running by creating a new code block (Ctrl+ M B) and put: "while True:pass" (without quotes) and execute on the same notes.
 Or use javascript by opening developer console (Ctrl+Shift+I) and type this:
+```
 function ClickConnect(){
     console.log("Working"); 
     document.querySelector("colab-toolbar-button#connect").click() 
 }
 setInterval(ClickConnect,60000)
+```
