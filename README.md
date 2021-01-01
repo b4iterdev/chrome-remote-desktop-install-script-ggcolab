@@ -1,11 +1,15 @@
 # chrome-remote-desktop-install-script-ggcolab
-Install Chrome Remote Desktop on Google Collab \n
-This script was forked from alok676875 RDP repo (https://github.com/alok676875/RDP/) with more detail about user credentials. \n
-How to use ? \n
-Paste this to new collab notes and execute: \n
+Install Chrome Remote Desktop on Google Collab 
+This script was forked from alok676875 RDP repo (https://github.com/alok676875/RDP/) with more detail about user credentials.
+
+##How to use ?
+
+Paste this to new collab notes and execute:
+```
 ! wget https://raw.githubusercontent.com/b4iterdev/chrome-remote-desktop-install-script-ggcolab/main/CRD.sh &> /dev/null
 ! chmod +x CRD.sh
 ! ./CRD.sh
+```
 This will create a new username b4iterdev with password:b4iter
 You might want to change b4iterdev's password using "passwd" (without quotes and sudo)
 You can also change root user password using "sudo passwd" (without quotes)
