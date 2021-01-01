@@ -18,8 +18,12 @@ You can also change root user password using "sudo passwd" (without quotes)
 
 And you now have a free VPS (lol)
 # Prevent from disconnecting.
-You can keep your session running by creating a new code block (Ctrl+ M B) and put: "while True:pass" (without quotes) and execute on the same notes.
-Or use javascript by opening developer console (Ctrl+Shift+I) and type this:
+You can keep your session running by creating a new code block (Ctrl+ M B) and put: 
+```
+while True:pass
+```
+and execute on the same notes.
+#### Or use javascript by opening developer console (Ctrl+Shift+I) and type this:
 ```
 function ClickConnect(){
     console.log("Working"); 
