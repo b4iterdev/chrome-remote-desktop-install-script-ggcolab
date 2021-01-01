@@ -1,8 +1,8 @@
 # chrome-remote-desktop-install-script-ggcolab
-Install Chrome Remote Desktop on Google Collab
-This script was forked from alok676875 RDP repo (https://github.com/alok676875/RDP/) with more detail about user credentials.
-How to use ?
-Paste this to new collab notes and execute:
+Install Chrome Remote Desktop on Google Collab \n
+This script was forked from alok676875 RDP repo (https://github.com/alok676875/RDP/) with more detail about user credentials. \n
+How to use ? \n
+Paste this to new collab notes and execute: \n
 ! wget https://raw.githubusercontent.com/b4iterdev/chrome-remote-desktop-install-script-ggcolab/main/CRD.sh &> /dev/null
 ! chmod +x CRD.sh
 ! ./CRD.sh
